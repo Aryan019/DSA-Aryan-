@@ -9,7 +9,7 @@
 import java.io.*;
 import java.util.*;
 
-public class GFG {
+public class Program25 {
     public static void main (String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine().trim()); //Inputting the testcases
@@ -96,7 +96,7 @@ class Solution{
                      li.add(buy);
                      li.add(sell);
                      
-                    ans.add(li);
+                    ans.add(li);    
                 }
                 
                 
