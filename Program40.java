@@ -27,3 +27,5 @@ class Solution {
         
     }
 }
+
+// Always write mid = low + (high-low)/2;
