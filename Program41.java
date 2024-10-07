@@ -56,7 +56,7 @@ class Solution {
                 
             int mid = low + (high-low)/2;
             
-            if(arr[mid]<=x){
+            if(arr[mid]>=x){
                 ans = mid;
                 low = mid +1;
                 
