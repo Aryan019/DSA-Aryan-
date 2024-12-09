@@ -41,3 +41,28 @@ class Solution {
         
     }
 }
+
+// converting to linked list from arraylist 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an ArrayList
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+        arrayList.add(4);
+
+        // Convert ArrayList to LinkedList
+        LinkedList<Integer> linkedList = new LinkedList<>(arrayList);
+
+        // Get the head of the LinkedList
+        Integer head = linkedList.getFirst(); // Option 1: Using getFirst()
+        // Integer head = linkedList.get(0); // Option 2: Using get(0)
+
+        // Print the head
+        System.out.println("Head of the LinkedList: " + head);
+    }
+}
