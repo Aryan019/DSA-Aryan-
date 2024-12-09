@@ -11,7 +11,7 @@
  *     }
  * }
  */
-public class Solution {
+public class Program67 {
     public ListNode detectCycle(ListNode head) {
 
         // Detecting there exist a loop or not 

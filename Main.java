@@ -23,7 +23,7 @@ public class Main {
                 arr[i] = Integer.parseInt(inputLine[i]);
             }
 
-            int ans = new Solution().count(arr, n, x);
+            int ans = new Program67().count(arr, n, x);
             System.out.println(ans);
         }
     }
